@@ -2,8 +2,11 @@
 colors:
 ----------
 green: #27ae60;
-
-
+yellow(alkali): #f1c40f;
+carrot(alkaline): #e67e22;
+skin(trans-metals): #f09188;
+amethyest(actinoids): #9b59b6;
+skin(lathanoids): #eb685a;
 */
 
 /*-------------------*/
@@ -13,9 +16,14 @@ green: #27ae60;
   margin: 20px 10px 20px 10px;
   border: 1px solid black;
   height: 550px;
+  padding: 10px;
 }
 
-.elem-sqr {
+.elem-sqr,
+.alkaline,
+.trans-metals,
+.amthyst,
+.lactinoid {
   width: 70px;
   height: 70px;
   border: 1px solid #27ae60;
@@ -32,4 +40,77 @@ green: #27ae60;
 .alkali {
   background-color: #f1c40f;
   border: 1px solid #f1c40f;
+}
+
+.alkaline-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 92px;
+}
+
+.trans-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 167px;
+}
+
+.trans-container-one {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 242px;
+}
+
+.trans-container-two {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 317px;
+}
+
+.trans-container-three {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 392px;
+}
+/*-------------------*/
+/*--- ELEMENTS ---*/
+/*-------------------*/
+
+.alkaline {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+}
+
+
+.trans-metals {
+  background-color: #f09188;
+  border: 1px solid #f09188;
+}
+.amthyst {
+  background-color: #9b59b6;
+  border: 1px solid #9b59b6;
+}
+
+.lactinoid {
+  background-color: #eb685a;
+  border: 1px solid #eb685a;
 }
