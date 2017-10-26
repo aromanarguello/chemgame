@@ -1,0 +1,35 @@
+/*
+colors:
+----------
+green: #27ae60;
+
+
+*/
+
+/*-------------------*/
+/*--- CONTAINERS ---*/
+/*-------------------*/
+.main-container {
+  margin: 20px 10px 20px 10px;
+  border: 1px solid black;
+  height: 550px;
+}
+
+.elem-sqr {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #27ae60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #27ae60;
+  margin-bottom: 2px;
+}
+
+.alkali {
+  background-color: #f1c40f;
+  border: 1px solid #f1c40f;
+}
