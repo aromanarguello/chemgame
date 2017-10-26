@@ -91,6 +91,65 @@ skin(lathanoids): #eb685a;
   bottom: 182px;
   left: 392px;
 }
+
+.trans-container-four {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 467px;
+}
+
+.trans-container-five {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 542px;
+}
+
+.trans-container-six {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 617px;
+}
+
+.trans-container-seven {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 692px;
+}
+
+.trans-container-eight {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 692px;
+}
+.trans-container-nine {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 767px;
+}
 /*-------------------*/
 /*--- ELEMENTS ---*/
 /*-------------------*/
