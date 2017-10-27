@@ -7,6 +7,11 @@ carrot(alkaline): #e67e22;
 skin(trans-metals): #f09188;
 amethyest(actinoids): #9b59b6;
 skin(lathanoids): #eb685a;
+fountain blue(post-trans metals): #5c97bf;
+shakespear(metalloids): #52b3d9;
+shamrock(other-non metals): #2ecc71;
+dodger blue(halogens): #19b5fe;
+steel blue(nobel gases): #4b77be;
 */
 
 /*-------------------*/
@@ -14,7 +19,6 @@ skin(lathanoids): #eb685a;
 /*-------------------*/
 .main-container {
   margin: 20px 10px 20px 10px;
-  border: 1px solid black;
   height: 550px;
   padding: 10px;
 }
@@ -22,8 +26,15 @@ skin(lathanoids): #eb685a;
 .elem-sqr,
 .alkaline,
 .trans-metals,
-.amthyst,
-.lactinoid {
+.actinoid,
+.actinoid-row,
+.lathanoid,
+.lathanoid-row,
+.post-trans,
+.metalloids,
+.other-non,
+.halogens,
+.nobel {
   width: 70px;
   height: 70px;
   border: 1px solid #27ae60;
@@ -37,10 +48,6 @@ skin(lathanoids): #eb685a;
   margin-bottom: 2px;
 }
 
-.alkali {
-  background-color: #f1c40f;
-  border: 1px solid #f1c40f;
-}
 
 .alkaline-container {
   width: 5.5%;
@@ -150,9 +157,98 @@ skin(lathanoids): #eb685a;
   bottom: 182px;
   left: 767px;
 }
+
+.post-trans-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 842px;
+}
+
+.in-between-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 917px;
+}
+
+.in-between-two {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 992px;
+}
+
+.in-between-three {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 1067px;
+}
+
+.halogen-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 1142px;
+}
+
+.nobel-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 1217px;
+}
+.lathanoid-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 46px;
+  position: absolute;
+  bottom: 20px;
+  right: 66px;
+}
+
+.actinoid-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 46px;
+  position: absolute;
+  bottom: 80px;
+  right: 66px;
+}
+
+
 /*-------------------*/
 /*--- ELEMENTS ---*/
 /*-------------------*/
+.alkali {
+  background-color: #f1c40f;
+  border: 1px solid #f1c40f;
+}
 
 .alkaline {
   background-color: #e67e22;
@@ -164,12 +260,49 @@ skin(lathanoids): #eb685a;
   background-color: #f09188;
   border: 1px solid #f09188;
 }
-.amthyst {
+.actinoid {
   background-color: #9b59b6;
   border: 1px solid #9b59b6;
 }
+.actinoid-row {
+  background-color: #9b59b6;
+  border: 1px solid #9b59b6;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
 
-.lactinoid {
+.lathanoid {
   background-color: #eb685a;
   border: 1px solid #eb685a;
+}
+
+.lathanoid-row {
+  background-color: #eb685a;
+  border: 1px solid #eb685a;
+  margin-right: 5px;
+}
+
+.post-trans {
+  background-color: #5c97bf;
+  border: 1px solid #5c97bf;
+}
+
+.metalloids {
+  background-color: #52b3d9;
+  border: 1px solid #52b3d9;
+}
+
+.other-non {
+  background-color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.halogens {
+  background-color: #19b5fe;
+  border: 1px solid #19b5fe;
+}
+
+.nobel {
+  background-color: #4b77be;
+  border: 1px solid #4b77be;
 }
