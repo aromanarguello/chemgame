@@ -18,7 +18,7 @@ steel blue(nobel gases): #4b77be;
 /*--- CONTAINERS ---*/
 /*-------------------*/
 .main-container {
-  margin: 20px 40px 20px 10px;
+  margin: 20px 40px 40px 10px;
   height: 550px;
   padding: 10px;
 }
@@ -241,22 +241,9 @@ steel blue(nobel gases): #4b77be;
   right: 66px;
 }
 
-
-
-
 /*---------------------*/
 /*--- ELEMENT GROUP ---*/
 /*---------------------*/
-.hydrogen:hover,
-.lithium:hover {
-  background-color: rgba(17, 51, 167, 0.7);
-  transform: scale(2,2);
-  z-index: 1;
-  position: relative;
-  transition: 0.5s;
-  margin-left: 32px;
-}
-
 .alkali {
   background-color: #f1c40f;
   border: 1px solid #f1c40f;
@@ -317,4 +304,41 @@ steel blue(nobel gases): #4b77be;
 .nobel {
   background-color: #4b77be;
   border: 1px solid #4b77be;
+}
+
+/*-------------*/
+/*--- HOVER ---*/
+/*-------------*/
+.hovered:hover {
+  background-color: rgba(17, 51, 167, 0.9);
+  color: white;
+  transform: scale(2,2);
+  z-index: 1;
+  position: relative;
+  transition: 0.6s;
+  margin-left: 34px;
+  border: none;
+  /*transform: rotate(360deg);*/
+}
+
+/*--------------*/
+/*--- PLAYER ---*/
+/*--------------*/
+
+.player-one {
+  width: 300px;
+  height: 90px;
+  margin: 0;
+  position: absolute;
+  left: 200px;
+  top: 135px;
+}
+
+.player-one h1 {
+  text-decoration: underline;
+}
+
+.player-one p {
+  text-decoration: none;
+  font-size: 19px;
 }
