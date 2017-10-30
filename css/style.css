@@ -14,9 +14,9 @@ dodger blue(halogens): #19b5fe;
 steel blue(nobel gases): #4b77be;
 */
 
-/*-------------------*/
+/*------------------*/
 /*--- CONTAINERS ---*/
-/*-------------------*/
+/*------------------*/
 .main-container {
   margin: 20px 40px 40px 10px;
   height: 550px;
@@ -146,19 +146,9 @@ steel blue(nobel gases): #4b77be;
   align-items: center;
   position: absolute;
   bottom: 182px;
-  left: 692px;
-}
-.trans-container-nine {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  bottom: 182px;
   left: 767px;
 }
-
-.post-trans-container {
+.trans-container-nine {
   width: 5.5%;
   display: flex;
   flex-direction: column;
@@ -168,7 +158,7 @@ steel blue(nobel gases): #4b77be;
   left: 842px;
 }
 
-.in-between-container {
+.post-trans-container {
   width: 5.5%;
   display: flex;
   flex-direction: column;
@@ -178,7 +168,7 @@ steel blue(nobel gases): #4b77be;
   left: 917px;
 }
 
-.in-between-two {
+.in-between-container {
   width: 5.5%;
   display: flex;
   flex-direction: column;
@@ -188,7 +178,7 @@ steel blue(nobel gases): #4b77be;
   left: 992px;
 }
 
-.in-between-three {
+.in-between-two {
   width: 5.5%;
   display: flex;
   flex-direction: column;
@@ -198,7 +188,7 @@ steel blue(nobel gases): #4b77be;
   left: 1067px;
 }
 
-.halogen-container {
+.in-between-three {
   width: 5.5%;
   display: flex;
   flex-direction: column;
@@ -208,7 +198,7 @@ steel blue(nobel gases): #4b77be;
   left: 1142px;
 }
 
-.nobel-container {
+.halogen-container {
   width: 5.5%;
   display: flex;
   flex-direction: column;
@@ -216,6 +206,16 @@ steel blue(nobel gases): #4b77be;
   position: absolute;
   bottom: 182px;
   left: 1217px;
+}
+
+.nobel-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 182px;
+  left: 1292px;
 }
 .lathanoid-container {
   width: 100%;
@@ -316,7 +316,7 @@ steel blue(nobel gases): #4b77be;
   z-index: 1;
   position: relative;
   transition: 0.6s;
-  margin-left: 34px;
+  /*margin-left: 34px;*/
   border: none;
   /*transform: rotate(360deg);*/
 }
@@ -332,13 +332,24 @@ steel blue(nobel gases): #4b77be;
   position: absolute;
   left: 200px;
   top: 135px;
+  text-align: center;
 }
 
-.player-one h1 {
+.player-two {
+  position: absolute;
+  left: 580px;
+  top: 135px;
+  text-align: center;
+ }
+
+
+.player-one h1,
+.player-two h1 {
   text-decoration: underline;
 }
 
-.player-one p {
+.player-one p,
+.player-two {
   text-decoration: none;
   font-size: 19px;
 }

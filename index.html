@@ -20,11 +20,16 @@
         <h4 class="modal-title" id="myModalLabel">Chem Game</h4>
       </div>
       <div class="modal-body">
-        <input type="text" placeholder="Enter Element name...">
+        Element Name:
+        <input type="text" placeholder="Element...">
+        <br>Number of Protons and Electrons:
+        <input type="text" placeholder="Electons/protons...">
+        <br>Element Family (metals, gases, alkali, etc...):
+        <input type="text" placeholder="Electons/protons...">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Enter</button>
+        <button type="button" class="btn btn-primary btn-enter">Enter</button>
       </div>
     </div>
   </div>
@@ -33,7 +38,13 @@
     <h1> Chem </h1>
     <div class="player-one">
       <h1> Player One </h1>
-      <p> Score: 1 pts</p>
+      <p class="score"> Score: 1 pts</p>
+      <h6 class="right"> Right: 70</h6>
+      <h6 class="wrong"> Wrong: 48</h6>
+    </div>
+    <div class="player-two">
+      <h1> Player Two </h1>
+      <p class="score"> Score: 1 pts</p>
       <h6 class="right"> Right: 70</h6>
       <h6 class="wrong"> Wrong: 48</h6>
     </div>
@@ -42,10 +53,10 @@
         <div class="elem-sqr hydrogen img-rounded hovered" data-toggle="modal" data-target="#myModal">
           H
         </div>
-        <div class="elem-sqr lithium alkali img-rounded hovered">
+        <div class="elem-sqr alkali img-rounded hovered">
           Li
         </div>
-        <div class="elem-sqr so alkali img-rounded hovered">
+        <div class="elem-sqr alkali img-rounded hovered">
           Na
         </div>
         <div class="elem-sqr alkali img-rounded hovered">
@@ -92,10 +103,10 @@
       <div class="trans-metals img-rounded hovered">
         Y
       </div>
-      <div class="lathanoid img-rounded hovered">
+      <div class="lathanoid img-rounded">
         La-Lu
       </div>
-      <div class="actinoid img-rounded hovered">
+      <div class="actinoid img-rounded">
         Ac-Lr
       </div>
     </div>
@@ -469,5 +480,6 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/table.js"></script>
   </body>
 </html>
