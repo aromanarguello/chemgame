@@ -18,7 +18,7 @@ steel blue(nobel gases): #4b77be;
 /*--- CONTAINERS ---*/
 /*-------------------*/
 .main-container {
-  margin: 20px 10px 20px 10px;
+  margin: 20px 40px 20px 10px;
   height: 550px;
   padding: 10px;
 }
@@ -247,6 +247,16 @@ steel blue(nobel gases): #4b77be;
 /*---------------------*/
 /*--- ELEMENT GROUP ---*/
 /*---------------------*/
+.hydrogen:hover,
+.lithium:hover {
+  background-color: rgba(17, 51, 167, 0.7);
+  transform: scale(2,2);
+  z-index: 1;
+  position: relative;
+  transition: 0.5s;
+  margin-left: 32px;
+}
+
 .alkali {
   background-color: #f1c40f;
   border: 1px solid #f1c40f;
