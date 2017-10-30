@@ -337,6 +337,188 @@ var elementAtomic = {
     name: 'Tantalum',
     an: 73
   },
-  
+  W: {
+    name: 'Tungsten',
+    an: 74
+  },
+  Re: {
+    name: 'Rhenium',
+    an: 75
+  },
+  Os: {
+    name: 'Osmium',
+    an: 76
+  },
+  Ir: {
+    name: 'Iridium',
+    an: 77
+  },
+  Pt: {
+    name: 'Platinum',
+    an: 78
+  },
+  Au: {
+    name: 'Gold',
+    an: 79
+  },
+  Hg: {
+    name: 'Mercury',
+    an: 80
+  },
+  Tl: {
+    name: 'Thallium',
+    an: 81
+  },
+  Pb: {
+    name: 'Lead',
+    an: 82
+  },
+  Bi: {
+    name: 'Bismuth',
+    an: 83
+  },
+  Po: {
+    name: 'Polonium',
+    an: 84
+  },
+  At: {
+    name: 'Astatine',
+    an: 85
+  },
+  Rn: {
+    name: 'Radon',
+    an: 86
+  },
+  Fr: {
+    name: 'Francium',
+    an: 87
+  },
+  Ra: {
+    name: 'Radium',
+    an: 88
+  },
+  Ac: {
+    name: 'Actinium',
+    an: 89
+  },
+  Th: {
+    name: 'Thorium',
+    an: 90
+  },
+  Pa: {
+    name: 'Protactinium',
+    an: 91
+  },
+  U: {
+    name: 'Uranium',
+    an: 92
+  },
+  Np: {
+    name: 'Neptunium',
+    an: 93
+  },
+  Pu: {
+    name: 'Plutonium',
+    an: 94
+  },
+  Am: {
+    name: 'Americium',
+    an: 95
+  },
+  Cm: {
+    name: 'Curium',
+    an: 96
+  },
+  Bk: {
+    name: 'Berkelium',
+    an: 97
+  },
+  Cf: {
+    name: 'Californium',
+    an: 98
+  },
+  Es: {
+    name: 'Einsteinium',
+    an: 99
+  },
+  Fm: {
+    name: 'Fermium',
+    an: 100
+  },
+  Md: {
+    name: 'Mendelevium',
+    an: 101
+  },
+  No: {
+    name: 'Nobelium',
+    an: 102
+  },
+  Lr: {
+    name: 'Lawrencium',
+    an: 103
+  },
+  Rf: {
+    name: 'Rutherfordium',
+    an: 104
+  },
+  Db: {
+    name: 'Dubnium',
+    an: 105
+  },
+  Sg: {
+    name: 'Seaborgium',
+    an: 106
+  },
+  Bh: {
+    name: 'Bohrium',
+    an: 107
+  },
+  Hs: {
+    name: 'Hassium',
+    an: 108
+  },
+  Mt: {
+    name: 'Meitnerium',
+    an: 109
+  },
+  Ds: {
+    name: 'Darmstadtium',
+    an: 110
+  },
+  Rg: {
+    name: 'Roentgenium',
+    an: 111
+  },
+  Uub: {
+    name: 'Ununbium',
+    an: 112
+  },
+  Uut: {
+    name: 'Ununtrium',
+    an: 113
+  },
+  Uuq: {
+    name: 'Ununquadium',
+    an: 114
+  },
+  Uup: {
+    name: 'Ununpentium',
+    an: 115
+  },
+  Uuh: {
+    name: 'Ununhexium',
+    an: 116
+  },
+  Uus: {
+    name: 'Ununseptium',
+    an: 117
+  },
+  Uuo: {
+    name: 'Ununoctium',
+    an: 118
+  }
+
+
+
 
 };
