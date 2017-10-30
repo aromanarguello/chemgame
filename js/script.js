@@ -12,7 +12,10 @@ $(document).ready( function () {
   });
 
   $('.btn-enter').click( function () {
-    console.log('click bitch');
+    var enteredElemName = $('#enteredName').val();
+    var enteredAN = $('#enteredAtomicNum').val();
+    console.log(enteredElemName);
+    console.log(enteredAN);
   });
 
 });
