@@ -8,6 +8,7 @@ $(document).ready( function () {
   };
 
   var answer = {};
+  // find key of currently selected element
   var clickedElement = "";
 
   $('.img-rounded').click( function (e) {
@@ -17,19 +18,30 @@ $(document).ready( function () {
     var noWhiteSpace = targetElement.replace(/\s/g,'');
     // Add clicked symbol to 'answer object'
     clickedElement = noWhiteSpace;
+    console.log(clickedElement);
+    // Add functionality to 'enter' button in modal after it checks answer is correct
+    // $('#modal').modal('hide');
   });
 
 
   $('.btn-enter').click( function () {
     // Store values from modal input for Element name and Atomic Number:
     var enteredElemName = $('#enteredName').val();
-    var enteredAN = $('#enteredAtomicNum').val();
+    var enteredAtomicNumber = $('#enteredAtomicNum').val();
     // Add input values to (answer) 'object':
-    answer[enteredElemName] = enteredAN;
+    answer.userElemName = enteredElemName;
+    answer.userElemAtomicNumber = enteredAtomicNumber;
+    console.log(answer);
+    $('#enteredName').val("");
+
+    $('#enteredAtomicNum').val("");
+
   });
+
+
 
 });
 
 
-// find key of currently selected element
+
 // compare results of users with content of obj
