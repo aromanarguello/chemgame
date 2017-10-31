@@ -517,8 +517,4 @@ var elementAtomic = {
     name: 'Ununoctium',
     an: 118
   }
-
-
-
-
 };
