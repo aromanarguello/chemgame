@@ -52,6 +52,7 @@ $(document).ready( function () {
       console.log(toNum);
       firstPlayerCtx = toNum += 1;
       $('#scoreFirst').html(firstPlayerCtx);
+      // can't repeat
 
       if (firstPlayerCtx === 118) {
         alert('Congratulations! You have won!');
