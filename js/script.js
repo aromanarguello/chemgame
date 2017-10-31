@@ -21,7 +21,10 @@ $(document).ready( function () {
     console.log(clickedElement);
     // Add functionality to 'enter' button in modal after it checks answer is correct
     // $('#modal').modal('hide');
+
+
   });
+
 
 
   $('.btn-enter').click( function () {
@@ -31,11 +34,23 @@ $(document).ready( function () {
     // Add input values to (answer) 'object':
     answer.userElemName = enteredElemName;
     answer.userElemAtomicNumber = enteredAtomicNumber;
-    console.log(answer);
-    $('#enteredName').val("");
 
+    // clear input values using .val("")
+    $('#enteredName').val("");
     $('#enteredAtomicNum').val("");
 
+    // use [clickedElement] to pick the same element that was clicked by player
+    // var elementAtomicClicked = elementAtomic[clickedElement];
+    console.log(elementAtomic[clickedElement].name);
+    console.log(answer.userElemName);
+
+    // compare user input against elementAtomic library
+    if ( answer.userElemName === elementAtomic[clickedElement].name && answer.userElemAtomicNumber === elementAtomic[clickedElement].an) {
+      alert('Correct!');
+    }
+    else {
+      alert('Sorry try again...');
+    }
   });
 
 

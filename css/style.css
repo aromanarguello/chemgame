@@ -315,7 +315,7 @@ steel blue(nobel gases): #4b77be;
   transform: scale(1.5,1.5);
   z-index: 1;
   position: relative;
-  transition: 0.6s;
+  transition: 0.5s;
   /*margin-left: 34px;*/
   border: none;
   /*transform: rotate(360deg);*/
