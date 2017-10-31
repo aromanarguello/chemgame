@@ -321,6 +321,10 @@ steel blue(nobel gases): #4b77be;
   /*transform: rotate(360deg);*/
 }
 
+.greyed-out {
+  background-color: rgba(149, 165, 166,0.8);
+}
+
 /*--------------*/
 /*--- PLAYER ---*/
 /*--------------*/

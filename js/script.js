@@ -52,7 +52,13 @@ $(document).ready( function () {
       console.log(toNum);
       firstPlayerCtx = toNum += 1;
       $('#scoreFirst').html(firstPlayerCtx);
-      // can't repeat
+
+      // Re-use and concatenate to disable the clicked element.
+      //    |
+      $('.' + clickedElement).removeAttr('data-toggle');
+      $('.' + clickedElement).removeClass('hovered');
+      $('.' + clickedElement).addClass('greyed-out');
+
 
       if (firstPlayerCtx === 118) {
         alert('Congratulations! You have won!');
