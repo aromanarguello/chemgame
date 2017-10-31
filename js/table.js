@@ -82,364 +82,364 @@ var elementAtomic = {
    },
   Ne: {
     name: 'Neon',
-    an: "1"
+    an: "10"
   },
   Na: {
     name: 'Sodium',
-    an: "1"
+    an: "11"
   },
   Mg: {
     name: 'Magnesium',
-    an: "1"
+    an: "12"
   },
   Al: {
     name: 'Aluminum',
-    an: "1"
+    an: "13"
   },
   Si: {
     name: 'Silicon',
-    an: "1"
+    an: "14"
   },
   P: {
     name: 'Phosphorus',
-    an: "1"
+    an: "15"
   },
   S: {
     name: 'Sulfur',
-    an: "1"
+    an: "16"
   },
   Cl: {
     name: 'Chlorine',
-    an: "1"
+    an: "17"
   },
   Ar: {
     name: 'Argon',
-    an: "1"
+    an: "18"
   },
   K: {
     name: 'Potassium',
-    an: "1"
+    an: "19"
   },
   Ca: {
     name: 'Calcium',
-    an: "2"
+    an: "20"
   },
   Sc: {
     name: 'Scandium',
-    an: "2"
+    an: "21"
   },
   Ti: {
     name: 'Titanium',
-    an: "2"
+    an: "22"
   },
   V: {
     name: 'Vanadium',
-    an: "2"
+    an: "23"
   },
   Cr: {
     name: 'Chromium',
-    an: "2"
+    an: "24"
   },
   Mn: {
     name: 'Manganese',
-    an: "2"
+    an: "25"
   },
   Fe: {
     name: 'Iron',
-    an: "2"
+    an: "26"
   },
   Co: {
     name: 'Cobalt',
-    an: "2"
+    an: "27"
   },
   Ni: {
     name: 'Nickel',
-    an: "2"
+    an: "28"
   },
   Cu: {
     name: 'Copper',
-    an: "2"
+    an: "29"
   },
   Zn: {
     name: 'Zinc',
-    an: "3"
+    an: "30"
   },
   Ga: {
     name: 'Gallium',
-    an: "3"
+    an: "31"
   },
   Ge: {
     name: 'Germanium',
-    an: "3"
+    an: "32"
   },
   As: {
     name: 'Arsenic',
-    an: "3"
+    an: "33"
   },
   Se: {
     name: 'Selenium',
-    an: "3"
+    an: "34"
   },
 
   Br: {
     name: 'Bromine',
-    an: "3"
+    an: "35"
   },
   Kr: {
     name: 'Krypton',
-    an: "3"
+    an: "36"
   },
   Rb: {
     name: 'Rubidium',
-    an: "3"
+    an: "37"
   },
   Sr: {
     name: 'Strontium',
-    an: "3"
+    an: "38"
   },
   Y: {
     name: 'Yttrium',
-    an: "3"
+    an: "39"
   },
   Zr: {
     name: 'Zirconium',
-    an: "4"
+    an: "40"
   },
   Nb: {
     name: 'Niobium',
-    an: "4"
+    an: "41"
   },
   Mo: {
     name: 'Molybdenum',
-    an: "4"
+    an: "42"
   },
   Tc: {
     name: 'Technetium',
-    an: "4"
+    an: "43"
   },
   Ru: {
     name: 'Ruthenium',
-    an: "4"
+    an: "44"
   },
   Rh: {
     name: 'Rhodium',
-    an: "4"
+    an: "45"
   },
   Pd: {
     name: 'Palladium',
-    an: "4"
+    an: "46"
   },
   Ag: {
     name: 'Silver',
-    an: "4"
+    an: "47"
   },
   Cd: {
     name: 'Cadmium',
-    an: "4"
+    an: "48"
   },
   In: {
     name: 'Indium',
-    an: "4"
+    an: "49"
   },
   Sn: {
     name: 'Tin',
-    an: "5"
+    an: "50"
   },
   Sb: {
     name: 'Antimony',
-    an: "5"
+    an: "51"
   },
   Te: {
     name: 'Tellurium',
-    an: "5"
+    an: "52"
   },
   I: {
     name: 'Iodine',
-    an: "5"
+    an: "53"
   },
   Xe: {
     name: 'Xenon',
-    an: "5"
+    an: "54"
   },
   Cs: {
     name: 'Cesium',
-    an: "5"
+    an: "55"
   },
   Ba: {
     name: 'Barium',
-    an: "5"
+    an: "56"
   },
   La: {
     name: 'Lanthanum',
-    an: "5"
+    an: "57"
   },
   Ce: {
     name: 'Cerium',
-    an: "5"
+    an: "58"
   },
   Pr: {
     name: 'Praseodymium',
-    an: "5"
+    an: "59"
   },
   Nd: {
     name: 'Neodymium',
-    an: "6"
+    an: "60"
   },
   Pm: {
     name: 'Promethium',
-    an: "6"
+    an: "61"
   },
   Sm: {
     name: 'Samarium',
-    an: "6"
+    an: "62"
   },
   Eu: {
     name: 'Europium',
-    an: "6"
+    an: "63"
   },
   Gd: {
     name: 'Gadolinium',
-    an: "6"
+    an: "64"
   },
   Tb: {
     name: 'Terbium',
-    an: "6"
+    an: "65"
   },
   Dy: {
     name: 'Dysprosium',
-    an: "6"
+    an: "66"
   },
   Ho: {
     name: 'Holmium',
-    an: "6"
+    an: "67"
   },
   Er: {
     name: 'Erbium',
-    an: "6"
+    an: "68"
   },
   Tm: {
     name: 'Thulium',
-    an: "6"
+    an: "69"
   },
   Yb: {
     name: 'Ytterbium',
-    an: "7"
+    an: "70"
   },
   Lu: {
     name: 'Lutetium',
-    an: "7"
+    an: "71"
   },
   Hf: {
     name: 'Hafnium',
-    an: "7"
+    an: "72"
   },
   Ta: {
     name: 'Tantalum',
-    an: "7"
+    an: "73"
   },
   W: {
     name: 'Tungsten',
-    an: "7"
+    an: "74"
   },
   Re: {
     name: 'Rhenium',
-    an: "7"
+    an: "75"
   },
   Os: {
     name: 'Osmium',
-    an: "7"
+    an: "76"
   },
   Ir: {
     name: 'Iridium',
-    an: "7"
+    an: "77"
   },
   Pt: {
     name: 'Platinum',
-    an: "7"
+    an: "78"
   },
   Au: {
     name: 'Gold',
-    an: "7"
+    an: "79"
   },
   Hg: {
     name: 'Mercury',
-    an: "8"
+    an: "80"
   },
   Tl: {
     name: 'Thallium',
-    an: "8"
+    an: "81"
   },
   Pb: {
     name: 'Lead',
-    an: "8"
+    an: "82"
   },
   Bi: {
     name: 'Bismuth',
-    an: "8"
+    an: "83"
   },
   Po: {
     name: 'Polonium',
-    an: "8"
+    an: "84"
   },
   At: {
     name: 'Astatine',
-    an: "8"
+    an: "85"
   },
   Rn: {
     name: 'Radon',
-    an: "8"
+    an: "86"
   },
   Fr: {
     name: 'Francium',
-    an: "8"
+    an: "87"
   },
   Ra: {
     name: 'Radium',
-    an: "8"
+    an: "88"
   },
   Ac: {
     name: 'Actinium',
-    an: "8"
+    an: "89"
   },
   Th: {
     name: 'Thorium',
-    an: "9"
+    an: "90"
   },
   Pa: {
     name: 'Protactinium',
-    an: "9"
+    an: "91"
   },
   U: {
     name: 'Uranium',
-    an: "9"
+    an: "92"
   },
   Np: {
     name: 'Neptunium',
-    an: "9"
+    an: "93"
   },
   Pu: {
     name: 'Plutonium',
-    an: "9"
+    an: "94"
   },
   Am: {
     name: 'Americium',
-    an: "9"
+    an: "95"
   },
   Cm: {
     name: 'Curium',
-    an: "9"
+    an: "96"
   },
   Bk: {
     name: 'Berkelium',
-    an: "9"
+    an: "97"
   },
   Cf: {
     name: 'Californium',
-    an: "9"
+    an: "98"
   },
   Es: {
     name: 'Einsteinium',
-    an: "9"
+    an: "99"
   },
   Fm: {
     name: 'Fermium',

@@ -353,3 +353,12 @@ steel blue(nobel gases): #4b77be;
   text-decoration: none;
   font-size: 19px;
 }
+
+/*--------------*/
+/*---- TEXT ----*/
+/*--------------*/
+
+#scoreFirst,
+#scoreSecond {
+  font-size: 30px;
+}
