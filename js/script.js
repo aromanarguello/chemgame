@@ -15,7 +15,7 @@ $(document).ready( function () {
   // first player points
   var firstPlayerCtx = $('#scoreFirst').html();
 
-  // $('#clickedElementHtml').html(clickedElement.toString());
+  // $('#clickedElementHtml').html(clickedElement);
 
 
   $('.img-rounded').click( function (e) {
@@ -26,6 +26,8 @@ $(document).ready( function () {
     // Add clicked symbol to 'answer object'
     clickedElement = noWhiteSpace;
     console.log(clickedElement);
+    $('#clickedElementHtml').html(clickedElement);
+
   });
 
   $('.btn-enter').click( function () {
