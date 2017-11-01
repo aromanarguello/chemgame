@@ -15,6 +15,8 @@ $(document).ready( function () {
   // first player points
   var firstPlayerCtx = $('#scoreFirst').html();
 
+  // $('#clickedElementHtml').html(clickedElement.toString());
+
 
   $('.img-rounded').click( function (e) {
     // store the inner context from shared class in each HTML and store element symbol value to use as key for object:
@@ -49,9 +51,10 @@ $(document).ready( function () {
       alert('Correct!');
       $('#myModal').modal('hide');
       var toNum = parseInt(firstPlayerCtx);
-      console.log(toNum);
       firstPlayerCtx = toNum += 1;
       $('#scoreFirst').html(firstPlayerCtx);
+
+
 
       // Re-use and concatenate to disable the clicked element.
       //    |

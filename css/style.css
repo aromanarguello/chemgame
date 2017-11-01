@@ -325,6 +325,28 @@ steel blue(nobel gases): #4b77be;
   background-color: rgba(149, 165, 166,0.8);
 }
 
+/*-------------*/
+/*--- MODAL ---*/
+/*-------------*/
+
+#clickedElementHtml {
+  border: 14px solid rgba(22, 160, 133,1.0);
+  background-color: rgba(46,204,113, 0.4);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+#myModalLabel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 /*--------------*/
 /*--- PLAYER ---*/
 /*--------------*/
