@@ -61,6 +61,8 @@ $(document).ready( function () {
       // Re-use and concatenate to disable the clicked element.
       //    |
       $('.' + clickedElement).removeAttr('data-toggle');
+                        //        |
+                        //   removes Attrobitue
       $('.' + clickedElement).removeClass('hovered');
       $('.' + clickedElement).addClass('greyed-out');
 
