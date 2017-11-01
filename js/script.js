@@ -1,6 +1,13 @@
 $(document).ready( function () {
 
-  var player = {
+  var playerOne = {
+    score: [],
+    name: "",
+    right: [],
+    wrong: []
+  };
+  
+  var playerTwo = {
     score: [],
     name: "",
     right: [],
@@ -55,6 +62,8 @@ $(document).ready( function () {
       var toNum = parseInt(firstPlayerCtx);
       firstPlayerCtx = toNum += 1;
       $('#scoreFirst').html(firstPlayerCtx);
+      // After score is updated in HTML push to player object -> score array
+      player.score.push(firstPlayerCtx);
 
 
 
