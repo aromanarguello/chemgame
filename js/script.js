@@ -19,23 +19,18 @@ $(document).ready( function () {
   var playerTurn = 0;
   var currentPlayer = playerOne;
 
-
-
-
   $('.img-rounded').click( function (e) {
     // store the inner context from shared class in each HTML and store element symbol value to use as key for object:
     var targetElement = e.target.textContent;
-    // replace whitespaces created when accessing target html()
     var noWhiteSpace = targetElement.replace(/\s/g,'');
     clickedElement = noWhiteSpace;
-    console.log(clickedElement);
     $('#clickedElementHtml').html(clickedElement);
   });
 
   $('.btn-enter').click( function () {
     var enteredElemName = $('#enteredName').val();
     var enteredAtomicNumber = $('#enteredAtomicNum').val();
-    // Add input values to (answer) 'object':
+
     answer.userElemName = enteredElemName;
     answer.userElemAtomicNumber = enteredAtomicNumber;
     // clear input values using .val("")
@@ -49,9 +44,6 @@ $(document).ready( function () {
          answer.userElemAtomicNumber === elementAtomic[clickedElement].an) {
       $('#myModal').modal('hide');
 
-
-      // multiplayer
-      // --------------
       if ((playerTurn % 2 === 0) ) {
         var toNum = parseInt(firstPlayerCtx);
         firstPlayerCtx = toNum += 1;
@@ -67,8 +59,6 @@ $(document).ready( function () {
         playerTurn +=1;
         console.log(secondPlayerCtx);
       }
-      // --------------
-
 
       playerOne.score.push(firstPlayerCtx);
       playerOne.right.push(firstPlayerCtx);
@@ -77,8 +67,7 @@ $(document).ready( function () {
       $('.' + clickedElement).removeClass('hovered');
       $('.' + clickedElement).addClass('greyed-out');
 
-
-      if (firstPlayerCtx === 118) {
+      if (firstPlayerCtx === 118 || secondPlayerCtx === 118) {
         alert('Congratulations! You have won!');
       }
     }
@@ -87,7 +76,4 @@ $(document).ready( function () {
       $('#myModal').modal('show');
     }
   });
-
-
-
 });
