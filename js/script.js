@@ -15,6 +15,12 @@ $(document).ready( function () {
   var clickedElement = "";
   var firstPlayerCtx = $('#scoreFirst').html();
   var secondPlayerCtx = $('#scoreSecond').html();
+  // for mutliplayer mode
+  var playerTurn = 0;
+  var currentPlayer = playerOne;
+
+
+
 
   $('.img-rounded').click( function (e) {
     // store the inner context from shared class in each HTML and store element symbol value to use as key for object:
@@ -42,13 +48,30 @@ $(document).ready( function () {
     if ( answer.userElemName === elementAtomic[clickedElement].name &&
          answer.userElemAtomicNumber === elementAtomic[clickedElement].an) {
       $('#myModal').modal('hide');
-      var toNum = parseInt(firstPlayerCtx);
-      firstPlayerCtx = toNum += 1;
-      $('#scoreFirst').html(firstPlayerCtx);
+
+
+      // multiplayer
+      // --------------
+      if ((playerTurn % 2 === 0) ) {
+        var toNum = parseInt(firstPlayerCtx);
+        firstPlayerCtx = toNum += 1;
+        $('#scoreFirst').html(firstPlayerCtx);
+        playerTurn += 1;
+        console.log(firstPlayerCtx);
+      }
+      else {
+        currentPlayer = playerTwo;
+        toNum2 = parseInt(secondPlayerCtx);
+        secondPlayerCtx = toNum2 += 1;
+        $('#scoreSecond').html(secondPlayerCtx);
+        playerTurn +=1;
+        console.log(secondPlayerCtx);
+      }
+      // --------------
+
 
       playerOne.score.push(firstPlayerCtx);
       playerOne.right.push(firstPlayerCtx);
-      console.log(playerOne);
 
       $('.' + clickedElement).removeAttr('data-toggle');
       $('.' + clickedElement).removeClass('hovered');
@@ -64,4 +87,7 @@ $(document).ready( function () {
       $('#myModal').modal('show');
     }
   });
+
+
+
 });
