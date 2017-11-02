@@ -53,6 +53,31 @@ nav {
   margin-bottom: 2px;
 }
 
+.alkaline-container,
+.trans-container,
+.trans-container-one,
+.trans-container-two,
+.trans-container-three,
+.trans-container-four,
+.trans-container-five,
+.trans-container-six,
+.trans-container-seven,
+.trans-container-eight,
+.trans-container-nine,
+.post-trans-container,
+.in-between-container,
+.in-between-two,
+.in-between-three,
+.halogen-container,
+.nobel-container,
+.lathanoid-container,
+.actinoid-container {
+  width: 5.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .first-line-container {
   width: 5.5%;
   margin: 0 0 0 0;
@@ -61,169 +86,101 @@ nav {
 }
 
 .alkaline-container {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 92px;
 }
 
 .trans-container {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 167px;
 }
 
 .trans-container-one {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 242px;
 }
 
 .trans-container-two {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 317px;
 }
 
 .trans-container-three {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 392px;
 }
 
 .trans-container-four {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 467px;
 }
 
 .trans-container-five {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 542px;
 }
 
 .trans-container-six {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 617px;
 }
 
 .trans-container-seven {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 692px;
 }
 
 .trans-container-eight {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 767px;
 }
 .trans-container-nine {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 842px;
 }
 
 .post-trans-container {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 917px;
 }
 
 .in-between-container {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 992px;
 }
 
 .in-between-two {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 1067px;
 }
 
 .in-between-three {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 1142px;
 }
 
 .halogen-container {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 1217px;
 }
 
 .nobel-container {
-  width: 5.5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: absolute;
   bottom: 182px;
   left: 1292px;
