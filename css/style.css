@@ -209,22 +209,6 @@ nav {
   right: 66px;
 }
 
-#dice-wrapper {
-  position: fixed;
-  left: 600px;
-  top: 150px;
-}
-
-#dice-wrapper button {
-  margin-left: 4px;
-  margin-top: 5px;
-  background-color: #27ae60;
-  border: none;
-  border-radius: 5px;
-  font-size: 15px;
-  color: white;
-}
-
 #dice-container {
   width: 80px;
   height: 80px;
@@ -237,6 +221,26 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: #52b3d9;
+}
+
+/*--------------*/
+/*---- DICE ----*/
+/*--------------*/
+
+#dice-wrapper {
+  position: fixed;
+  left: 680px;
+  top: 170px;
+}
+
+#dice-wrapper button {
+  margin-left: 4px;
+  margin-top: 5px;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
 }
 
 /*---------------------*/
