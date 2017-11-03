@@ -209,6 +209,34 @@ nav {
   right: 66px;
 }
 
+#dice-wrapper {
+  position: fixed;
+  left: 500px;
+  top: 120px;
+}
+
+#dice-wrapper button {
+  margin-left: 13px;
+  margin-top: 5px;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+#dice-container {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #5c97bf;
+  border-radius: 5px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5c97bf;
+}
+
 /*---------------------*/
 /*--- ELEMENT GROUP ---*/
 /*---------------------*/
@@ -284,9 +312,7 @@ nav {
   z-index: 1;
   position: relative;
   transition: 0.5s;
-  /*margin-left: 34px;*/
   border: none;
-  /*transform: rotate(360deg);*/
 }
 
 .greyed-out {

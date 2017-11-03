@@ -2,14 +2,19 @@ $(document).ready( function () {
   var playerOne = {
     score: [],
     name: "",
-    right: [],
-    wrong: []
+    right: []
   };
   var playerTwo = {
     score: [],
     name: "",
-    right: [],
-    wrong: []
+    right: []
+  };
+  var dice = {
+    sides: 6,
+    roll: function () {
+      var randomNum = Math.floor(Math.random() * this.sides) + 1;
+      return randomNum;
+    }
   };
   var answer = {};
   var clickedElement = "";
@@ -73,6 +78,7 @@ $(document).ready( function () {
     else {
       $('#myModal').modal('hide');
       playerTurn +=1;
+      alert('Wrong! Next player\'s turn!');
     }
   });
 
@@ -82,4 +88,16 @@ $(document).ready( function () {
     else if (currentPlayer === playerTwo) {
       $('.player-two').css("text-shadow","1px 1px 10px #fff" );
     }
+
+  function printNum (num) {
+    var placeHolder = $('#placeHolder');
+    placeHolder.html(num);
+  }
+
+  $('#dice-btn').click(function () {
+    var result = dice.roll();
+    printNum(result);
+  });
+
+
 });
