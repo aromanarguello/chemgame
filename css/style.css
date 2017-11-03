@@ -211,12 +211,12 @@ nav {
 
 #dice-wrapper {
   position: fixed;
-  left: 500px;
-  top: 120px;
+  left: 600px;
+  top: 150px;
 }
 
 #dice-wrapper button {
-  margin-left: 13px;
+  margin-left: 4px;
   margin-top: 5px;
   background-color: #27ae60;
   border: none;
@@ -226,15 +226,17 @@ nav {
 }
 
 #dice-container {
-  width: 100px;
-  height: 100px;
-  border: 1px solid #5c97bf;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #52b3d9;
   border-radius: 5px;
   font-size: 28px;
+  font-weight: bold;
+  padding-top: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5c97bf;
+  background-color: #52b3d9;
 }
 
 /*---------------------*/

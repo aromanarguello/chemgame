@@ -98,6 +98,4 @@ $(document).ready( function () {
     var result = dice.roll();
     printNum(result);
   });
-
-
 });
