@@ -41,8 +41,8 @@ $(document).ready( function () {
       $('#myModal').modal('hide');
 
       if ((playerTurn % 2 === 0) ) {
-        $('.player-one').css("text-shadow","0 0 0 #27ae60" );
-        $('.player-two').css("text-shadow","1px 1px 10px #27ae60" );
+        $('.player-one').css("text-shadow","0 0 0 #fff" );
+        $('.player-two').css("text-shadow","1px 1px 10px #fff" );
         var toNum = parseInt(firstPlayerCtx);
         firstPlayerCtx = toNum += 1;
         $('#scoreFirst').html(firstPlayerCtx);
@@ -50,8 +50,8 @@ $(document).ready( function () {
 
       }
       else {
-        $('.player-two').css("text-shadow","0 0 0 #27ae60" );
-        $('.player-one').css("text-shadow","1px 1px 10px #27ae60");
+        $('.player-two').css("text-shadow","0 0 0 #fff");
+        $('.player-one').css("text-shadow","1px 1px 10px #fff");
         currentPlayer = playerTwo;
         toNum2 = parseInt(secondPlayerCtx);
         secondPlayerCtx = toNum2 += 1;
@@ -71,15 +71,15 @@ $(document).ready( function () {
       }
     }
     else {
-      alert('Sorry try again...');
-      $('#myModal').modal('show');
+      $('#myModal').modal('hide');
+      playerTurn +=1;
     }
   });
 
     if (currentPlayer === playerOne) {
-      $('.player-one').css("text-shadow","1px 1px 10px #27ae60");
+      $('.player-one').css("text-shadow","1px 1px 10px #fff");
     }
     else if (currentPlayer === playerTwo) {
-      $('.player-two').css("text-shadow","1px 1px 10px #27ae60" );
+      $('.player-two').css("text-shadow","1px 1px 10px #fff" );
     }
 });
