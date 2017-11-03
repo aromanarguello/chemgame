@@ -360,7 +360,7 @@ nav {
 
 #scoreFirst,
 #scoreSecond {
-  font-size: 18px;
+  font-size: 30px;
   margin-top: 5px;
   margin-left: 5px;
   padding-top: 3px;
@@ -380,14 +380,15 @@ nav {
   background-color: #eb685a;
   border: 1px solid #eb685a;
   width: 100%;
-  height: 30px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 38px;
   font-weight: bold;
   margin: 0;
-  /*position: absolute;
-  left: 600px;
-  bottom: 550px;*/
+}
+
+.player-two h1,
+.player-one h1 {
+  font-size: 30px;
 }

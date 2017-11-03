@@ -15,7 +15,6 @@ $(document).ready( function () {
   var clickedElement = "";
   var firstPlayerCtx = $('#scoreFirst').html();
   var secondPlayerCtx = $('#scoreSecond').html();
-  // for mutliplayer mode
   var playerTurn = 0;
   var currentPlayer = playerOne;
 
@@ -37,27 +36,27 @@ $(document).ready( function () {
     $('#enteredName').val("");
     $('#enteredAtomicNum').val("");
 
-    console.log(elementAtomic[clickedElement].name);
-    console.log(answer.userElemName);
-
     if ( answer.userElemName === elementAtomic[clickedElement].name &&
          answer.userElemAtomicNumber === elementAtomic[clickedElement].an) {
       $('#myModal').modal('hide');
 
       if ((playerTurn % 2 === 0) ) {
+        $('.player-one').css("text-shadow","0 0 0 #27ae60" );
+        $('.player-two').css("text-shadow","1px 1px 10px #27ae60" );
         var toNum = parseInt(firstPlayerCtx);
         firstPlayerCtx = toNum += 1;
         $('#scoreFirst').html(firstPlayerCtx);
         playerTurn += 1;
-        console.log(firstPlayerCtx);
+
       }
       else {
+        $('.player-two').css("text-shadow","0 0 0 #27ae60" );
+        $('.player-one').css("text-shadow","1px 1px 10px #27ae60");
         currentPlayer = playerTwo;
         toNum2 = parseInt(secondPlayerCtx);
         secondPlayerCtx = toNum2 += 1;
         $('#scoreSecond').html(secondPlayerCtx);
         playerTurn +=1;
-        console.log(secondPlayerCtx);
       }
 
       playerOne.score.push(firstPlayerCtx);
@@ -76,4 +75,11 @@ $(document).ready( function () {
       $('#myModal').modal('show');
     }
   });
+
+    if (currentPlayer === playerOne) {
+      $('.player-one').css("text-shadow","1px 1px 10px #27ae60");
+    }
+    else if (currentPlayer === playerTwo) {
+      $('.player-two').css("text-shadow","1px 1px 10px #27ae60" );
+    }
 });
